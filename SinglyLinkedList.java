@@ -13,7 +13,7 @@ public class SinglyLinkedList {
         Node first = new Node(10);
         Node second = new Node(20);
         Node third = new Node(30);
-        Node fourth = new Node(40);
+        Node fourth = new Node(50);
 
         first.next = second;
         second.next = third;
@@ -26,7 +26,7 @@ public class SinglyLinkedList {
             System.out.print(" " + temp.data);
             temp = temp.next;
         }
-        
+
         System.out.println();
     }
 }
